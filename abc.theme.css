@@ -1,0 +1,58 @@
+/**
+ * @name YourThemeName
+ * @author YourName
+ * @version 1.0.0
+ * @description A brief description of your theme.
+ * @source https://github.com/YourUsername/YourThemeRepo
+ * @updateUrl https://raw.githubusercontent.com/YourUsername/YourThemeRepo/main/YourThemeFile.theme.css
+ */
+
+/* Your CSS code goes here */
+
+:root {
+  --main-color: #4caf50;
+  --hover-color: #81c784;
+  --text-color: #ffffff;
+  --background-color: #263238;
+  --accent-color: #ff5722;
+}
+
+/* orange */
+.app, .theme-dark .app {
+  background-color: var(--background-color) !important;
+}
+
+/* orange */
+.theme-dark .primary {
+  background-color: var(--main-color) !important;
+}
+
+/* orange */
+.theme-dark .hoverable:hover {
+  background-color: var(--hover-color) !important;
+}
+
+/* orange */
+.theme-dark .text {
+  color: var(--text-color) !important;
+}
+
+/* blue */
+.theme-dark .accent {
+  color: var(--accent-color) !important;
+}
+
+/* orange */
+.theme-dark .button {
+  background-color: var(--main-color) !important;
+}
+
+/* orange */
+.theme-dark .button:hover {
+  background-color: var(--hover-color) !important;
+}
+
+/* orange */
+.theme-dark .button .text {
+  color: var(--text-color) !important;
+}
